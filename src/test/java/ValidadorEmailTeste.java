@@ -16,7 +16,7 @@ public class ValidadorEmailTeste {
 		assertFalse(emailValidador.validador(""));
 		assertFalse(emailValidador.validador(null));
 		assertTrue(emailValidador.validador("teste@teste.com"));
-		//assertTrue(emailValidador.validador("jose.alcindo@dominio.com"));
+		assertTrue(emailValidador.validador("jose.alcindo@dominio.com"));
 		//assertTrue(emailValidador.validador("jose.alcindo3@ab.c2.ef.gh.ij"));
 		//assertFalse(emailValidador.validador("josé@dominio.com"));
 
